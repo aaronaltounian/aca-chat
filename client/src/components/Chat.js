@@ -33,7 +33,7 @@ class Chat extends React.Component {
             e.preventDefault();
             if (this.props.createMessage) {
               this.props.createMessage({
-                clientId:this.clientId,
+                clientId: this.clientId,
                 text: this.state.message}
               );
             }

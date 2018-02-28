@@ -4,6 +4,7 @@
 
 # Setup
 * Look at server/index.js and understand what is going on in there
+* Look at client/src/components/Chat.js and understand what is going on in there
 
 
 
