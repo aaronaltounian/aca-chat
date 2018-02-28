@@ -4,17 +4,18 @@ class Chat extends React.Component {
   constructor() {
     super();
     this.state = {
-      message: ""
+      message: "",
+      clientId: ""
     };
   }
-  clientId = null;
+
 
   componentDidMount() {
     fetch("http://localhost:3001/clientId")
     .then( (response) => {
       return response.text();
     }).then((id) => {
-      this.clientId = id;
+      this.setState({clientId: id});
     });
 
   }
@@ -29,11 +30,12 @@ class Chat extends React.Component {
       <div>
         <div>
           <h1>Chat</h1>
+          <h1>I am client: {this.state.clientId}</h1>
           <form onSubmit={(e) => {
             e.preventDefault();
             if (this.props.createMessage) {
               this.props.createMessage({
-                clientId: this.clientId,
+                clientId: this.state.clientId,
                 text: this.state.message}
               );
             }
