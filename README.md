@@ -17,6 +17,8 @@
 * Look at the console, there is an error. Why? Look at actions/index.js
 * I do not want to have to refresh the page every time I want to see new messages. I want the new messages to just show up automatically. How can we accomplish this.
 * How many clients could I open up and chat with?
+* What happens to the messages when I restart the server?
 * How could I design the system to have chat rooms?
+
 
 
