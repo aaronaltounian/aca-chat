@@ -3,13 +3,13 @@
 # Windows users - Make sure you remove single quotes from the package.json
 
 # Setup
+* Fork and clone, npm install, npm start
 * Look at server/index.js and understand what is going on in there
 * Look at client/src/components/Chat.js and understand what is going on in there
 
 
 
 # Todo
-* Do yarn start 
 * This will start a web server and my custom data server (server/index.js)
 * Open 2 browsers windows to http://myipaddress:3101/
 * Send a message from one window and then refresh the other window the message shows up
