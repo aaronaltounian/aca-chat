@@ -16,7 +16,6 @@ function messagesLoaded(products) {
   };
 }
 export function createMessage(message) {
-  debugger;
   return function (dispatch) {
     fetch("http://localhost:3001/messages", {
       method: "POST",
