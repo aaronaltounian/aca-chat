@@ -24,4 +24,3 @@ export function createMessage(message) {
     }).then(() => dispatch(loadMessages()));
   };
 }
-

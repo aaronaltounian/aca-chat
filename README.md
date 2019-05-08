@@ -20,6 +20,3 @@
 * What happens to the messages when the server is restarted? How could we fix this?
 * How could I design the system to have chat rooms?
 * Try implementing voice recognition for the chat messages
-
-
-
